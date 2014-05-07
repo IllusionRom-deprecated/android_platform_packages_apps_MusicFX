@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <style name="Widget.Holo.SeekBar.Vertical" parent="@android:Widget.Holo.SeekBar">
+    <style name="Widget.Holo.SeekBar.Vertical" parent="@android:Widget.Holo.Light.SeekBar">
         <item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/scrubber_progress_vertical_holo_dark</item>
 <!-- not public       <item name="android:indeterminateDrawable">@android:drawable/scrubber_progress_horizontal_holo_dark</item> -->
@@ -28,5 +28,9 @@
         <item name="android:paddingRight">0dip</item>
         <item name="android:paddingTop">16dip</item>
         <item name="android:paddingBottom">16dip</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColor">@color/grey_text</item>
     </style>
 </resources>
