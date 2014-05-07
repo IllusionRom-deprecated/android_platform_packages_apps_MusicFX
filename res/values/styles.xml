@@ -31,6 +31,6 @@
     </style>
 
     <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
-        <item name="android:textColor">@color/grey_text</item>
+        <item name="android:textColor">@color/white_text</item>
     </style>
 </resources>
